@@ -2,11 +2,16 @@ import java.util.HashMap;
 
 public class Caja{
 
-    private HashMap<String, Double> listaDePrecios;
+    private HashMap<Integer, Double> listaDePrecios;
 
-    public Caja(HashMap<String, Double> listaDePrecios){
+    public Caja(HashMap<Integer, Double> listaDePrecios){
         this.listaDePrecios = listaDePrecios;
     }
 
-    
+    /*
+     * Genera un ticket 
+    */
+    public void cobra(int[] cuenta){
+
+    }
 }

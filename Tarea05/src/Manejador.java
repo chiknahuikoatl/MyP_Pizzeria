@@ -17,6 +17,7 @@ public abstract Class Manejador{
     protected Fecha fecha;
     protected boolean termina;
     protected HashMap listaDePrecios;
+    protected Caja caja;
 
     public Manejador(String menu, Fecha fecha, HashMap listaDePrecios){
         this.menu = menu;
