@@ -1,9 +1,12 @@
 /*
+ * Clase que se dedica a correr una venta.
+ * Ejecuta a la clase Caja que se encarga de las ventas.
  * Se encarga de:
  *  Manejar el inventario.
- *  Mostrar el menú
  *  Hacer la ejecución del cajero
 */
+
+
 
 import java.util.HashMap;
 

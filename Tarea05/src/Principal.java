@@ -1,5 +1,11 @@
+/*
+ * Clase principal se encarga de inicializar los valores por omisión y de
+ * correr el programa.
+*/
+
+
 import java.util.HashMap;
-    import java.util.Calendar;
+import java.util.Calendar;
 
 public class Principal{
 
@@ -11,7 +17,7 @@ public class Principal{
         generaListaDePrecios();
         creaMenu();
         dimeFecha();
-        ManejadorMaquina M1 = new ManejadorMaquina(menu,fecha,listaDePrecios);
+        ManejadorUsuario MU = new ManejadorUsuario(menu,fecha,listaDePrecios);
     }
 
     public void generaListaDePrecios(){
